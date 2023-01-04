@@ -5,7 +5,7 @@
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 h1 {
@@ -76,23 +76,8 @@ h3 {
     flex-direction: column;
     justify-content: space-between;
     color: #fb0606;
-
     border-radius: 25px;
-    
     font-size: 1.2rem;
-/*  background: rgba(253, 6, 6, 0.384);
-    text-align: center;
-        border-style: solid;
-    border-radius: 25px;
-    max-width: 450px;
-    color: #360303;
-    position: relative;
-    background: rgba(253, 6, 6, 0.384);
-    font-size: 1.5rem;
-    padding: 5px;
-    border-style: solid;
-    top: 1rem;
-*/
 }
 
 .app .top {

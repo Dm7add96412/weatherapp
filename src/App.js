@@ -56,11 +56,11 @@ function App() {
         {data.name !== undefined &&
         <div className="bottom">
         <div className="feels">
-          {data.main ? <p className="bold">{data.main.feels_like.toFixed()}</p> : null}
+          {data.main ? <p className="bold">{data.main.feels_like.toFixed()}°C</p> : null}
           <p>Feels Like</p>
         </div>
         <div className="humidity">
-          {data.main ? <p className="bold">{data.main.humidity.toFixed()}</p> : null }
+          {data.main ? <p className="bold">{data.main.humidity.toFixed()}%</p> : null }
           <p>Humidity</p>
         </div>
         <div className="wind">
